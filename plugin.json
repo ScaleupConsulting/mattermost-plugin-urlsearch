@@ -1,0 +1,19 @@
+{
+    "id": "com.scaleupconsulting.urlsearch",
+    "name": "URL Search",
+    "description": "Find links posted in channels you belong to by any part of the URL, and list a channel's links by domain.",
+    "version": "0.1.0",
+    "homepage_url": "",
+    "support_url": "",
+    "icon_path": "assets/urlsearch-icon.svg",
+    "min_server_version": "12.0.0",
+    "server": {
+        "executables": {
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "linux-arm64": "server/dist/plugin-linux-arm64"
+        }
+    },
+    "webapp": {
+        "bundle_path": "webapp/dist/main.js"
+    }
+}

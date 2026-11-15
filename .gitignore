@@ -1,0 +1,19 @@
+bin/
+dist/
+node_modules/
+server/dist/
+webapp/dist/
+webapp/src/manifest.ts
+server/manifest.go
+.browser-profile/
+coverage/
+coverage.txt
+
+# Mac
+.DS_Store
+
+# Jetbrains
+.idea/
+
+# VS Code
+.vscode
